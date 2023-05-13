@@ -72,7 +72,7 @@ newPage = false
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-github"
-url = "https://example.com"
+url = "https://github.com/juzhyo"
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-twitter"
