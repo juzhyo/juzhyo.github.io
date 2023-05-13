@@ -56,7 +56,7 @@ disableContact = false
 enable = true
 intro = "Hi, I'm"
 title = "Justin Zhou."
-subtitle = "I build things for the web"
+subtitle = "路人甲"
 content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
 image = "/images/me.png"
 
