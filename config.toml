@@ -12,11 +12,18 @@ page = [ "HTML", "RSS" ]
 [markup.goldmark.renderer]
 unsafe = true
 
+# [[Menus.main]]
+# identifier = "blog"
+# name = "Blog"
+# title = "Blog posts"
+# url = "/blogs"
+# weight = 1
+
 [[Menus.main]]
-identifier = "blog"
-name = "Blog"
-title = "Blog posts"
-url = "/blogs"
+identifier = "note"
+name = "Notes"
+title = "Notes"
+url = "/notes"
 weight = 1
 
 # [[Menus.main]]
@@ -57,8 +64,8 @@ enable = true
 intro = "Hi, I'm"
 title = "Justin Zhou."
 subtitle = "路人甲"
-content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-image = "/images/me.png"
+content = ""
+image = "/images/avatar.jpg"
 
 [params.hero.bottomImage]
 enable = true
@@ -83,7 +90,7 @@ icon = "/fav.png"
 url = "https://example.com"
 
 [params.about]
-enable = true
+enable = false
 title = "About Me"
 image = "/images/me.png"
 content = """
@@ -304,13 +311,13 @@ icon = "fab fa-github"
 url = "https://github.com/gurusabarish/HugoProfileV2"
 
 [params.contact]
-enable = true
+enable = false
 content = "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
 email = "gurusabarisha@gmail.com"
 btnName = "Mail me"
 
 [params.footer.recentPosts]
-path = "posts"
+path = "notes"
 count = 3
 title = "Recent Posts"
 enable = true
