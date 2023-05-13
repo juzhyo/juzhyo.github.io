@@ -64,30 +64,30 @@ enable = true
 intro = "Hi, I'm"
 title = "Justin Zhou."
 subtitle = "路人甲"
-content = ""
+content = "Pick a flower on Earth and you move the farthest star."
 image = "/images/avatar.jpg"
 
 [params.hero.bottomImage]
 enable = true
 
 [params.hero.button]
-enable = true
+enable = false
 name = "Resume"
 url = "#"
 download = true
 newPage = false
 
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-github"
-url = "https://github.com/juzhyo"
+# [[params.hero.socialLinks.fontAwesomeIcons]]
+# icon = "fab fa-github"
+# url = "https://github.com/juzhyo"
 
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-twitter"
-url = "https://example.com"
+# [[params.hero.socialLinks.fontAwesomeIcons]]
+# icon = "fab fa-twitter"
+# url = "https://example.com"
 
-[[params.hero.socialLinks.customIcons]]
-icon = "/fav.png"
-url = "https://example.com"
+# [[params.hero.socialLinks.customIcons]]
+# icon = "/fav.png"
+# url = "https://example.com"
 
 [params.about]
 enable = false
