@@ -12,20 +12,20 @@
 }
 
 body {
-    font-family: "Lora", sans-serif !important;
+    font-family: "Inter", sans-serif !important;
 }
 
 /* secondary font */
 .secondary-font, #secondary-font {
-    font-family: "Lora", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* primary font */
 .primary-font, #primary-font {
-    font-family: "Lora", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* Default font */
 .default-font, #default-font {
-    font-family: "Lora", sans-serif;
+    font-family: "Inter", sans-serif;
 }
