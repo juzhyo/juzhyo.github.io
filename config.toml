@@ -39,6 +39,7 @@ description = "Text about my cool site"
 favicon = "/favicon.ico"
 useBootstrapCDN = false
 animate = true
+customCSS = true
 
 [params.font]
 fontSize = "1rem"
