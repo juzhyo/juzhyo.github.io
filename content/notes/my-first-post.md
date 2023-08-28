@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2023-05-13T21:03:36+08:00
-draft: true
+draft: false
 author: "Justin Zhou"
 tags:
   - Markdown syntax
