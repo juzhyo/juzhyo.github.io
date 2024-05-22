@@ -1,134 +1,127 @@
-{{ define "head" }}
-<meta name="description" content="{{ .Params.description }}">
-<link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/single.css">
+{{ define "main"}}
 
-<!-- fontawesome -->
-<script defer src="{{.Site.Params.staticPath}}/fontawesome-5/all-5.15.4.js"></script>
-{{ end }}
+<!-- checking blog -->
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 
-{{ define "title" }}
-{{.Title }} | {{ .Site.Title }}
-{{ end }}
-
-{{ define "main" }}
-<section id="single">
+<section class="section-sm">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-12 col-lg-9">
-        <div class="pr-lg-4">
-          <div class="title mb-5">
-            <h1 class="text-center mb-4">{{ .Title }}</h1>
-            <div class="text-center">
-              {{ .Params.author }} 
-              <small>|</small>
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+      <div class="col-lg-10">
+        <div class="text-center mb-5">
+          <h3 class="h2 mb-4 post-title">{{.Title}}</h3>
+          <ul class="card-meta list-inline">
+            <li class="list-inline-item">
+              {{ if .Params.author }}
+              <a href="#!" class="card-meta-author">
+                {{ with .Site.GetPage (.Params.author | urlize | lower) }}
+                <a href="{{.Permalink}}" class="card-meta-author">
+                  {{ partial "image.html" (dict "Src" .Params.image "Size" "26x26" "Class" "w-auto" "Alt" .Title) }}
+                  <span>{{.Title}}</span>
+                </a>
+                {{ end }}
+              </a>
+              {{ else }}
+                <span>{{.Site.Params.Author}}</span>
+              {{ end }}
+            </li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item">
+              <span>{{.PublishDate.Format "02 January 2006"}}</span>
+            </li>
+          </ul>
+        </div>
 
-              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
-              <span id="readingTime">
-                {{ .Site.Params.singlePages.readTime.content | default "min read" }}
-              </span>
+        {{ with .Params.image }}
+        <div class="mb-5 text-center">
+          {{ partial "image.html" (dict "Src" . "Class" "img-fluid rounded" "Alt" "Post image") }}
+        </div>
+        {{ end }}
+
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+
+    <div class="single-post-meta">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-6 text-center text-md-left">
+          <ul class="post-meta-tags list-unstyled list-inline">
+            {{range .Params.tags}}
+            <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}">{{.}}</a></li>
+            {{end}}
+          </ul>
+        </div>
+        <div class="col-lg-5 col-md-6 text-center text-md-right mt-4 mt-md-0">
+          {{- partial "post-share.html" . -}}
+        </div>
+      </div>
+    </div>
+
+    {{ if .Params.Author }}
+      <div class="single-post-author">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="media d-block d-sm-flex text-center text-sm-left">
+              {{ with .Site.GetPage (.Params.Author | urlize | lower) }}
+              <a href="{{.Permalink}}">
+                {{ partial "image.html" (dict "Src" .Params.image "Size" "150x150" "Class" "img-fluid rounded-circle mr-0 mr-sm-4 mb-4" "Alt" .Title) }}
+              </a>
+              <div class="media-body">
+                <p class="font-primary mb-1">Written By</p>
+                <h4><a href="{{.Permalink}}" class="text-dark font-weight-700">{{.Title}}</a></h4>
+                <p class="font-primary">{{ .Summary | truncate 250 }}</p>
+                <ul class="social-links list-unstyled list-inline ml-0 ml-sm-n2">
+                  {{ range .Params.social }}
+                  <li class="list-inline-item"><a href="{{.link | safeURL}}">
+                      <i class="lab {{.icon}}"></i>
+                    </a></li>
+                  {{end}}
+                </ul>
+              </div>
               {{ end }}
             </div>
           </div>
-          {{ if .Params.image }}
-          <div class="featured-image">
-            <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
-          </div>
-          {{ end }}
-          <article class="page-content  p-2">
-          {{ .Content | emojify }}
-          </article>
         </div>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-3">
-        <div class="sticky-sidebar">
-          {{ if .Params.toc | default true}}
-          <aside class="toc">
-              <h5>
-                {{ .Site.Params.terms.toc | default "Table Of Contents" }}
-              </h5>
-              <div class="toc-content">
-                {{.TableOfContents}}
+    {{ end }}
+
+    {{ $related := (where site.RegularPages "Section" "blog") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
+    {{ if $related }}
+      <div class="single-post-similer">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="row mt-3">
+              <div class="col-12">
+                <h3 class="text-dark font-weight-800 mb-4 pb-2">You May Also Like</h3>
+              </div>            
+                {{ range first 2 $related }}
+              <div class="col-md-6">
+                {{ .Render "post" }}
               </div>
-          </aside>
-          {{ end }}
-
-          {{ if .Params.tags }}
-          <aside class="tags">
-            <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
-            <ul class="tags-ul list-unstyled list-inline">
-              {{range .Params.tags}}
-              <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}" target="_blank">{{.}}</a></li>
-              {{end}}
-            </ul>
-          </aside>
-          {{end}}
-
-          {{ if .Params.socialShare | default true }}
-          <aside class="social">
-            <h5>{{ .Site.Params.terms.social | default "Social" }}</h5>
-            <div class="social-content">
-              <ul class="list-inline">
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
-                    <i class="fa fa-envelope"></i>
-                  </a>
-                </li>
-              </ul>
+              {{ end }}
             </div>
-          </aside>
-          {{ end }}
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
-        {{ template "_internal/disqus.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+{{ else }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="content">
+          {{.Content}}
+        </div>
       </div>
     </div>
   </div>
-  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
-    <i class="fas fa-angle-up"></i>
-  </button>
 </section>
 
-{{ if or (.Site.Params.singlePages.scrollprogress.enable | default true) (.Params.enableScrollProgress) }}
-<div class="progress">
-  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<Script src="{{.Site.Params.staticPath}}/js/scrollProgressBar.js"></script>
 {{ end }}
-
-<script>
-  var topScroll = document.getElementById("topScroll");
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      topScroll.style.display = "block";
-    } else {
-      topScroll.style.display = "none";
-    }
-  }
-
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-
-{{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
-<script src="{{.Site.Params.staticPath}}/js/readingTime.js"></script>
-{{end}}
 
 {{ end }}
