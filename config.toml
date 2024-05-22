@@ -64,7 +64,7 @@ disableContact = false
 enable = true
 intro = "Hi, I'm"
 title = "Justin Zhou."
-subtitle = "路人甲"
+subtitle = "Welcome!"
 content = "Pick a flower on Earth and you move the farthest star."
 image = "/images/avatar.jpg"
 
