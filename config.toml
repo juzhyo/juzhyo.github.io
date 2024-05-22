@@ -62,7 +62,7 @@ disableContact = false
 
 [params.hero]
 enable = true
-intro = "Hi, I'm"
+intro = "Hi, I am"
 title = "Justin Zhou."
 subtitle = "路人甲"
 content = "Pick a flower on Earth and you move the farthest star."
