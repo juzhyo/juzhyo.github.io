@@ -1,6 +1,7 @@
 header {
     z-index: 10;
     position: relative;
+    margin: 50px;
 }
 
 header .navbar .navbar-nav a {
