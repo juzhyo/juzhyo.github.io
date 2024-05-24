@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Justin Zhou"
 theme: hugo-profile
 
 outputs:
@@ -114,11 +114,11 @@ params:
       showOnScrollUp : true
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: false
-      disableProjects: false
-      disableAchievements: false
-      disableContact: false
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
 
   # Hero
   hero:
