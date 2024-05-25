@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Justin Zhou"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/favicon.ico"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -114,20 +114,20 @@ params:
       showOnScrollUp : true
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: false
-      disableProjects: true
-      disableAchievements: true
-      disableContact: true
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
 
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hi stranger, I'm"
     title: "Justin."
     subtitle: ""
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    content: "Welcome to my personal site, where I write about random stuff."
+    # image: /images/profile_pic.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -151,13 +151,13 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/profile_pic.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      Just a guy with too many hobbies. I have a background in physics, and strong interests in the intersection of technology and art. I am currently working as a freelance maker coach at [example org.](https://example.com) in San Francisco, CA.
 
       I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
@@ -232,6 +232,21 @@ params:
         date: "Feb 2016 - Mar 2017"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
+      - job: "Intern"
+        company: "DSO"
+        companyUrl: "https://www.dso.org.sg"
+        date: "Jan 2020 - Aug 2020"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
   # Education
   education:
     enable: true
@@ -247,6 +262,7 @@ params:
         content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Science in Computer Science"
         school:
@@ -341,6 +357,7 @@ params:
           link: https://hugo-profile-2.netlify.app
         badges:
           - "Hugo"
+
           - "Bootstrap"
           - "Javascript"
         links:
