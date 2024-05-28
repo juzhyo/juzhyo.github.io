@@ -4,7 +4,7 @@ description: "meta description"
 image: "images/post/01.jpg"
 date: 2021-02-05T16:56:47+06:00
 draft: false
-author: "Justin Zhou"
+#author: "Justin Zhou"
 tags: ["Diy", "Toy"]
 categories: ["LifeStyle"]
 ---
