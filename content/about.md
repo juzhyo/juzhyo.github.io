@@ -13,16 +13,16 @@ caption:
 social:
   enable: true
   social_links:
-  - link: "https://www.facebook.com/"
-    icon: "lab la-facebook-f"
+  #- link: "https://www.facebook.com/"
+  #  icon: "lab la-facebook-f"
 
-  - link: "https://www.twitter.com/"
-    icon: "lab la-twitter"
+  #- link: "https://www.twitter.com/"
+  #  icon: "lab la-twitter"
     
-  - link: "https://www.linkedin.com/"
+  - link: "https://www.linkedin.com/in/justin-zhou-a7282a2a7"
     icon: "lab la-linkedin-in"
     
-  - link: "https://www.github.com/"
+  - link: "https://www.github.com/juzhyo"
     icon: "lab la-github"
 
 # what_i_do

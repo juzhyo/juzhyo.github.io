@@ -3,7 +3,7 @@ title: "What you need to know about Photography"
 description: "meta description"
 image: "images/post/02.jpg"
 date: 2021-02-04T16:56:47+06:00
-draft: false
+draft: true
 author: "Lubana Era"
 tags: ["Photography"]
 categories: ["Photography"]

@@ -3,7 +3,7 @@ title: "Become a morning person with the help of this a alarm clock"
 description: "meta description"
 image: "images/post/03.jpg"
 date: 2021-02-03T16:56:47+06:00
-draft: false
+draft: true
 author: "Henara Colii"
 tags: ["Alarm", "Clock"]
 categories: ["LifeStyle"]

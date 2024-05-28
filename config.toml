@@ -87,7 +87,7 @@ search = true
 # main section
 mainSections = ["blog"]
 # copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+# copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
 # Preloader
 [params.preloader]
@@ -200,18 +200,22 @@ url = "terms-conditions/"
 weight = 4
 
 # Social Icons
-[[params.social]]
-icon = "lab la-facebook-f"        # https://icons8.com/line-awesome
-url = "https://www.facebook.com/"
+# [[params.social]]
+# icon = "lab la-facebook-f"        # https://icons8.com/line-awesome
+# url = "https://www.facebook.com/"
 
-[[params.social]]
-icon = "lab la-twitter"          # https://icons8.com/line-awesome
-url = "https://www.twitter.com/"
+# [[params.social]]
+# icon = "lab la-twitter"          # https://icons8.com/line-awesome
+# url = "https://www.twitter.com/"
 
-[[params.social]]
-icon = "lab la-instagram"          # https://icons8.com/line-awesome
-url = "https://www.instagram.com/"
+# [[params.social]]
+# icon = "lab la-instagram"          # https://icons8.com/line-awesome
+# url = "https://www.instagram.com/"
 
 [[params.social]]
 icon = "lab la-linkedin-in"       # https://icons8.com/line-awesome
-url = "https://www.linkedin.com/"
+url = "https://www.linkedin.com/in/justin-zhou-a7282a2a7"
+
+[[params.social]]
+icon = "lab la-github"          # https://icons8.com/line-awesome
+url = "https://www.github.com/juzhyo"
