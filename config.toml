@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/bookworm-light/"
-title = "Justin Zhou"
+title = "Justin│周勇"
 theme = "bookworm-light-hugo"
 # post pagination
 paginate = "5"
