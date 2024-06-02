@@ -75,7 +75,7 @@ color_primary = "#01AD9F"
 #################### default parameters ################################
 [params]
 logo = "images/logo.webp"
-logo_width = "200px"
+logo_width = "120px"
 favicon = "images/favicon.ico"
 # Meta data
 description = "This is meta description"
