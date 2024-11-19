@@ -3,6 +3,7 @@ image = "hel-poland-2.jpg"
 date = "2020-01-23"
 title = "Hel, Poland"
 type = "gallery"
+draft = true
 +++
 
 [Hel Peninsula](https://en.wikipedia.org/w/index.php?title=Hel_Peninsula&oldid=939640541) (Polish: Mierzeja Helska) is a 35-km-long sand bar peninsula in northern Poland separating the Bay of Puck from the open Baltic Sea. 
