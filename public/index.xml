@@ -6,14 +6,28 @@
     <description>Recent content on The Average Zhou</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>A minimal and responsive Hugo theme inspired by the system console, crafted for optimal performance with an average page load time of under one second.&#xA;Theme is based on a modern and minimal Terminal CSS framework.&#xA;Live demo https://mrmierzejewski.com/hugo-theme-console/ Installation From the root of your Hugo site, clone the theme into themes/hugo-theme-console by running :&#xA;$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console See the Hugo documentation for more information.&#xA;Configuration Set theme parameter in your config file:</description>
+      <title>Central Market, Hong Kong</title>
+      <link>http://localhost:1313/photos/20230609-central-market-hong-kong/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/20230609-central-market-hong-kong/</guid>
+      <description>9th Jun 2023 Central Market, Hong Kong</description>
+    </item>
+    <item>
+      <title>Man Mo Temple, Hong Kong</title>
+      <link>http://localhost:1313/photos/20230609-man-mo-temple-hong-kong/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/20230609-man-mo-temple-hong-kong/</guid>
+      <description>9th Jun 2023 Man Mo Temple, Hong Kong</description>
+    </item>
+    <item>
+      <title>The Big Buddha, Hong Kong</title>
+      <link>http://localhost:1313/photos/20230607-the-big-buddha-hong-kong/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/20230607-the-big-buddha-hong-kong/</guid>
+      <description>7th Jun 2023 The Big Buddha, Hong Kong</description>
     </item>
   </channel>
 </rss>
