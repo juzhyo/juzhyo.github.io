@@ -10,4 +10,4 @@ package-lock.json
 public
 wiki
 resources
-*.jpg
+images/
