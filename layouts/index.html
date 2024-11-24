@@ -31,7 +31,7 @@ Personal website by Justin Zhou.  <a href="about/">(more)</a>
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
-            {{ $thumb := .Resize "350x webp" }}
+            {{ $thumb := .Resize "400x webp" }}
             <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
         {{end}}
         </a>
