@@ -1,5 +1,5 @@
 +++
-image = "DSCF2582.jpg"
+image = "DSCF3663.jpg"
 date = "2015-07-29"
 title = "Royal Gallery of Saint Hubert, Belgium"
 type = "gallery"
