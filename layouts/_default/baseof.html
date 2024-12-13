@@ -18,6 +18,10 @@
       <![endif]-->
     ` | safeHTML }}
 
+    {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+    {{ end }}
+
     {{- partial "favicon.html" . -}}
     {{ with .OutputFormats.Get "RSS" }}
       {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
@@ -27,6 +31,10 @@
     {{ template "_internal/google_analytics.html" . }}
 
     {{- partial "header.html" . -}}
+
+    {{ if .Params.plotly }}
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    {{ end }}
 </head>
 <body class="terminal">
     <div class="container">
