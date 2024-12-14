@@ -12,7 +12,7 @@ The Kelly criterion is used to evaluate if this is the case. It is a formula for
 
 $$\begin{aligned}
 f & = p - \frac{q}{b} \\
-& = p - \frac{1-p}{b}
+& = p - \frac{1-p}{b} 
 \end{aligned}$$
 
 where \(f\) is the fraction of one's capital, \(p\) the probability of winning, \(q\) the probability of losing, and \(b\) the odds of the bet.
