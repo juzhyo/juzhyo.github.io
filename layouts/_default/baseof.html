@@ -18,7 +18,7 @@
       <![endif]-->
     ` | safeHTML }}
 
-    {{ if .Param.math }}
+    {{ if .Param "math" }}
     {{ partialCached "math.html" . }}
     {{ end }}
 
