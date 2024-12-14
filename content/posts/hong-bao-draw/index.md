@@ -9,6 +9,10 @@ Around the time of Lunar New Year, Singapore Pools will organise a special lotte
 
 The Kelly criterion is used to evaluate if this is the case. It is a formula for sizing a sequence of bets by maximising the geometric growth rate of wealth. For a system where the bettor wins or loses a fixed percentage of his bet, the Kelly criterion reads: 
 
+$$\begin{aligned}
+f & = p - \frac{q}{b} \\
+& = p - \frac{1-p}{b} 
+\end{aligned}$$
 
 where \(f\) is the fraction of one's capital, \(p\) the probability of winning, \(q\) the probability of losing, and \(b\) the odds of the bet.
 
