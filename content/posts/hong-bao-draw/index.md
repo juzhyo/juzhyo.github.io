@@ -5,6 +5,9 @@ draft: false
 plotly: true
 math: true
 
+[params]
+  math = true
+
 ---
 Around the time of Lunar New Year, Singapore Pools will organise a special lottery event called the Toto Hong Bao Draw, which features a significantly larger jackpot prize compared to the regular draws. The Hong Bao draws, with their larger prize money, attracted people to participate, suggesting that it may be worth placing a bet.
 
