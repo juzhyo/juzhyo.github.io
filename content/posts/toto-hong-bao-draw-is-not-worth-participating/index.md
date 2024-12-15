@@ -30,7 +30,7 @@ The values for \\(p\\) are as shown below
 
 [Source: Singapore Pools](https://online.singaporepools.com/en/lottery/toto-statistics-history)
 
-Plotting \\(f\\) versus \\(b\\), one observes that \\(f\\) is positive for \\(b \gtrapprox 14\times 10^6\\).
+Plotting \\(f\\) versus \\(b\\) for the jackpot, one observes that \\(f\\) is positive for \\(b \gtrapprox 14\times 10^6\\).
 
 {{<plotly json="/plotly/hong-bao-draw.json" height="600px">}} 
 
