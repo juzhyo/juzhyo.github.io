@@ -5,7 +5,7 @@ draft: false
 plotly: true
 math: true
 ---
-around the time of Lunar New Year, Singapore Pools will organise a special lottery event called the Toto Hong Bao Draw, which features a significantly larger jackpot prize compared to the regular draws. The Hong Bao draws, with their larger prize money, attracted people to participate, suggesting that it may be worth placing a bet.
+aRound the time of Lunar New Year, Singapore Pools will organise a special lottery event called the Toto Hong Bao Draw, which features a significantly larger jackpot prize compared to the regular draws. The Hong Bao draws, with their larger prize money, attracted people to participate, suggesting that it may be worth placing a bet.
 
 Here, the Kelly criterion is used to evaluate if this is the case. It is a formula for sizing a sequence of bets by maximising the geometric growth rate of wealth. For a system where the bettor wins or loses a fixed percentage of his bet, the Kelly criterion reads: 
 
