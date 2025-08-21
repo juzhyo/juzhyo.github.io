@@ -5,7 +5,7 @@ draft: false
 plotly: true
 math: true
 ---
-Around the time of Lunar New Year, Singapore Pools will organise a special lottery event called the Toto Hong Bao Draw, which features a significantly larger jackpot prize compared to the regular draws. The Hong Bao draws, with their larger prize money, attracted people to participate, suggesting that it may be worth placing a bet.
+around the time of Lunar New Year, Singapore Pools will organise a special lottery event called the Toto Hong Bao Draw, which features a significantly larger jackpot prize compared to the regular draws. The Hong Bao draws, with their larger prize money, attracted people to participate, suggesting that it may be worth placing a bet.
 
 Here, the Kelly criterion is used to evaluate if this is the case. It is a formula for sizing a sequence of bets by maximising the geometric growth rate of wealth. For a system where the bettor wins or loses a fixed percentage of his bet, the Kelly criterion reads: 
 
@@ -34,5 +34,5 @@ Plotting \\(f\\) versus \\(b\\) for the jackpot, one observes that \\(f\\) is po
 
 {{<plotly json="/plotly/hong-bao-draw.json" height="600px">}} 
 
-considering the jackpot prize money had been around $12 million historically, \\(b = 12\times 10^6\\) for a $1 minimum bet, and \\(f < 0\\) *i.e.* it would be wise to not participate in the draw. Even if the prize money is greater than $14 million, one should bear in mind that there had never been a sole jackpot winner in the draw's history.
+Considering the jackpot prize money had been around $12 million historically, \\(b = 12\times 10^6\\) for a $1 minimum bet, and \\(f < 0\\) *i.e.* it would be wise to not participate in the draw. Even if the prize money is greater than $14 million, one should bear in mind that there had never been a sole jackpot winner in the draw's history.
 
