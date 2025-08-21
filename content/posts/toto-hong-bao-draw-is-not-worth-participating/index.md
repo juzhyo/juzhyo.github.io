@@ -34,5 +34,5 @@ Plotting \\(f\\) versus \\(b\\) for the jackpot, one observes that \\(f\\) is po
 
 {{<plotly json="/plotly/hong-bao-draw.json" height="600px">}} 
 
-Considering the jackpot prize money had been around $12 million historically, \\(b = 12\times 10^6\\) for a $1 minimum bet, and \\(f < 0\\) *i.e.* it would be wise to not participate in the draw. Even if the prize money is greater than $14 million, one should bear in mind that there had never been a sole jackpot winner in the draw's history.
+considering the jackpot prize money had been around $12 million historically, \\(b = 12\times 10^6\\) for a $1 minimum bet, and \\(f < 0\\) *i.e.* it would be wise to not participate in the draw. Even if the prize money is greater than $14 million, one should bear in mind that there had never been a sole jackpot winner in the draw's history.
 
