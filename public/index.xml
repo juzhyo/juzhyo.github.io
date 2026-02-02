@@ -57,5 +57,12 @@
       <guid>https://juzhyo.github.io/posts/introduction/</guid>
       <description>&lt;p&gt;Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>About</title>
+      <link>https://juzhyo.github.io/about/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      <guid>https://juzhyo.github.io/about/</guid>
+      <description>&lt;p&gt;A personal website by Justin Zhou.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
