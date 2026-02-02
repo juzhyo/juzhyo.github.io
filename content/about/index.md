@@ -36,7 +36,7 @@ A personal website.
 
 <!-- After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. -->
 
-<!-- ``` -->
+```
 <!--   exampleSite -->
 <!--   ├── hugo.toml -->
 <!--   ├── content -->
