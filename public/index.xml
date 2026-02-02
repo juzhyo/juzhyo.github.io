@@ -6,15 +6,8 @@
     <description>Recent content on The Average Zhou</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://juzhyo.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://juzhyo.github.io/about/</link>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://juzhyo.github.io/about/</guid>
-      <description>&lt;p&gt;A personal website.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!--   exampleSite --&amp;gt;&#xA;&amp;lt;!--   ├── hugo.toml --&amp;gt;&#xA;&amp;lt;!--   ├── content --&amp;gt;&#xA;&amp;lt;!--   │   ├── about --&amp;gt;&#xA;&amp;lt;!--   │   │   └── index.md --&amp;gt;&#xA;&amp;lt;!--   │   └── photos --&amp;gt;&#xA;&amp;lt;!--   │   │   └── arizona-us --&amp;gt;&#xA;&amp;lt;!--   │   │       ├── arizona-us.jpg --&amp;gt;&#xA;&amp;lt;!--   │   │       └── index.md --&amp;gt;&#xA;&amp;lt;!--   │   └── posts --&amp;gt;&#xA;&amp;lt;!--   │       └── introduction --&amp;gt;&#xA;&amp;lt;!--   │           └── index.md --&amp;gt;&#xA;&amp;lt;!--   ├── layouts --&amp;gt;&#xA;&amp;lt;!--   │ --&amp;gt;&#xA;&amp;lt;!--   └── static --&amp;gt;&#xA;&amp;lt;!-- ``` --&amp;gt;&#xA;&#xA;&amp;lt;!-- Copy at least the `hugo.toml` in the root directory of your website. Overwrite the existing config file if necessary. --&amp;gt;&#xA;&#xA;&amp;lt;!-- Hugo includes a development server, so you can view your changes as you go - --&amp;gt;&#xA;&amp;lt;!-- very handy. Spin it up with the following command: --&amp;gt;&#xA;&#xA;&amp;lt;!-- ``` --&amp;gt;&#xA;&amp;lt;!-- hugo serve --&amp;gt;&#xA;&amp;lt;!-- ``` --&amp;gt;&#xA;&#xA;&amp;lt;!-- Now you can go to [http://localhost:1313](http://localhost:1313) and the theme should be visible. --&amp;gt;&#xA;&#xA;&amp;lt;!-- ## Example Site --&amp;gt;&#xA;&#xA;&amp;lt;!-- To run the example site, please type the following command. --&amp;gt;&#xA;&#xA;&amp;lt;!-- ``` --&amp;gt;&#xA;&amp;lt;!-- make hugo-server --&amp;gt;&#xA;&amp;lt;!-- ``` --&amp;gt;&#xA;&#xA;&amp;lt;!-- ## License --&amp;gt;&#xA;&#xA;&amp;lt;!-- Copyright © 2024 [Marcin Mierzejewski](https://mrmierzejewski.com/) --&amp;gt;&#xA;&#xA;&amp;lt;!-- The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information. --&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
     <item>
       <title>Warsaw, Poland</title>
       <link>https://juzhyo.github.io/photos/warsaw-poland/</link>
