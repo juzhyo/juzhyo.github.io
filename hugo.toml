@@ -5,6 +5,7 @@ languageCode = "en-us"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
+  upperTitle = "The Average Zhou"
   titleCutting = false
 
   # Set the animation style -- https://animate.style/
