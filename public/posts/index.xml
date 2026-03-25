@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The Average Zhou</title>
+    <title>Posts on Justin Zhou</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on The Average Zhou</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <description>Recent content in Posts on Justin Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Justin Zhou</copyright>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

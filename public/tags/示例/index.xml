@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>示例 on Justin Zhou</title>
+    <link>http://localhost:1313/tags/%E7%A4%BA%E4%BE%8B/</link>
+    <description>Recent content in 示例 on Justin Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Justin Zhou</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%A4%BA%E4%BE%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>用户列表</title>
+      <link>http://localhost:1313/users/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/users/users/</guid>
+      <description>&lt;p&gt;这里有使用 Blowfish 构建的网站实例。点击&lt;a href=&#34;http://localhost:1313/users/users.json&#34; &gt;这里&lt;/a&gt;以 JSON 形式查看完整列表。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
