@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-Hosting on Justin Zhou</title>
+    <link>http://localhost:1313/series/self-hosting/</link>
+    <description>Recent content in Self-Hosting on Justin Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Justin Zhou</copyright>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Self-hosting on an M1 Mac mini</title>
+      <link>http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

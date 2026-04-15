@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Justin Zhou</copyright>
-    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Self-hosting on an M1 Mac mini</title>
+      <link>http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/self-hosting-on-an-m1-mac-mini/featured.svg" />
+    </item>
     
     <item>
       <title>n9o.xyz</title>
@@ -17,26 +27,6 @@
       <guid>http://localhost:1313/users/0-e8b2eb823290677fbba3390d5cef2c35/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/0-e8b2eb823290677fbba3390d5cef2c35/feature.webp" />
-    </item>
-    
-    <item>
-      <title>Welcome to Blowfish</title>
-      <link>http://localhost:1313/docs/welcome/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/welcome/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish is packed with tons of features.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of &lt;a target=&#34;_blank&#34; href=&#34;https://github.com/nunocoracao/congo&#34;&gt;Congo&lt;/a&gt; and expands its initial vision.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/welcome/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/docs/installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/installation/</guid>
-      <description>&lt;p&gt;Simply follow the standard Hugo &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Quick Start&lt;/a&gt; procedure to get up and running quickly.&lt;/p&gt;&#xA;&lt;p&gt;Detailed installation instructions can be found below. Instructions for &lt;a href=&#34;http://localhost:1313/docs/installation/#installing-updates&#34; &gt;updating the theme&lt;/a&gt; are also available.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Installation&#xA;    &lt;div id=&#34;installation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#installation&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;These instructions will get you up and running using Hugo and Blowfish from a completely blank state. Most of the dependencies mentioned in this guide can be installed using the package manager of choice for your platform.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/installation/featured.svg" />
     </item>
     
     <item>
@@ -60,26 +50,6 @@
     </item>
     
     <item>
-      <title>Getting Started</title>
-      <link>http://localhost:1313/docs/getting-started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/getting-started/</guid>
-      <description>&lt;div&#xA;  &#xA;    class=&#34;flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900&#34;&#xA;  &#xA;  &gt;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;text-primary-400 pe-3 flex items-center&#34;&#xA;    &#xA;    &gt;&#xA;    &lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/span&gt;&#xA;  &lt;/span&gt;&#xA;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;dark:text-neutral-300&#34;&#xA;    &#xA;    &gt;This section assumes you have already &lt;a href=&#34;http://localhost:1313/docs/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;installed the Blowfish theme&lt;/a&gt;.&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/br&gt;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;&lt;div&#xA;  &#xA;    class=&#34;flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900&#34;&#xA;  &#xA;  &gt;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;text-primary-400 pe-3 flex items-center&#34;&#xA;    &#xA;    &gt;&#xA;    &lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 448 512&#34;&gt;&#xA;&lt;path fill=&#34;currentColor&#34;  d=&#34;M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&#xA;  &lt;/span&gt;&#xA;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;dark:text-neutral-300&#34;&#xA;    &#xA;    &gt;&lt;p&gt;We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/getting-started/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Configuration</title>
-      <link>http://localhost:1313/docs/configuration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/configuration/</guid>
-      <description>&lt;p&gt;Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.&lt;/p&gt;&#xA;&lt;p&gt;The theme ships with a default configuration that gets you up and running with a basic blog or static website.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/configuration/featured.svg" />
-    </item>
-    
-    <item>
       <title>mucahitkurtlar.github.io</title>
       <link>http://localhost:1313/users/3-9d028495840ad385e6cb3ccf051dca22/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,16 +70,6 @@
     </item>
     
     <item>
-      <title>Homepage Layout</title>
-      <link>http://localhost:1313/docs/homepage-layout/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/homepage-layout/</guid>
-      <description>&lt;p&gt;Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/homepage-layout/featured.svg" />
-    </item>
-    
-    <item>
       <title>pmnxis.github.io</title>
       <link>http://localhost:1313/users/5-5bf94b5c1e0c4a40d81816df85e1444f/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,16 +77,6 @@
       <guid>http://localhost:1313/users/5-5bf94b5c1e0c4a40d81816df85e1444f/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/5-5bf94b5c1e0c4a40d81816df85e1444f/feature.webp" />
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/docs/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/shortcodes/</guid>
-      <description>&lt;p&gt;In addition to all the &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;default Hugo shortcodes&lt;/a&gt;, Blowfish adds a few extras for additional functionality.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Alert&#xA;    &lt;div id=&#34;alert&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#alert&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;alert&lt;/code&gt; outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
     </item>
     
     <item>
@@ -140,16 +90,6 @@
     </item>
     
     <item>
-      <title>Front Matter</title>
-      <link>http://localhost:1313/docs/front-matter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/front-matter/</guid>
-      <description>&lt;p&gt;In addition to the &lt;a href=&#34;https://gohugo.io/content-management/front-matter/#front-matter-variables&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;default Hugo front matter parameters&lt;/a&gt;, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/front-matter/featured.svg" />
-    </item>
-    
-    <item>
       <title>georgiancodeclub.github.io</title>
       <link>http://localhost:1313/users/7-25036bf87aa99ef82e09089a1ddbb9eb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -157,16 +97,6 @@
       <guid>http://localhost:1313/users/7-25036bf87aa99ef82e09089a1ddbb9eb/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/7-25036bf87aa99ef82e09089a1ddbb9eb/feature.webp" />
-    </item>
-    
-    <item>
-      <title>Multiple Authors</title>
-      <link>http://localhost:1313/docs/multi-author/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/multi-author/</guid>
-      <description>&lt;p&gt;Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/multi-author/featured.svg" />
     </item>
     
     <item>
@@ -180,16 +110,6 @@
     </item>
     
     <item>
-      <title>Partials</title>
-      <link>http://localhost:1313/docs/partials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/partials/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Analytics&#xA;    &lt;div id=&#34;analytics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#analytics&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Blowfish provides built-in support for Fathom Analytics, Google Analytics and Umami Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/partials/featured.svg" />
-    </item>
-    
-    <item>
       <title>loisvelasco.is-a.dev</title>
       <link>http://localhost:1313/users/9-6c20c1af90023ed60919801cfba0f08f/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,26 +117,6 @@
       <guid>http://localhost:1313/users/9-6c20c1af90023ed60919801cfba0f08f/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/9-6c20c1af90023ed60919801cfba0f08f/feature.webp" />
-    </item>
-    
-    <item>
-      <title>Thumbnails</title>
-      <link>http://localhost:1313/docs/thumbnails/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/thumbnails/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Thumbnails&#xA;    &lt;div id=&#34;thumbnails&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#thumbnails&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported but we recommend &lt;code&gt;.png&lt;/code&gt; or &lt;code&gt;.jpg&lt;/code&gt;) that starts with &lt;code&gt;feature*&lt;/code&gt; inside your article&amp;rsquo;s main directory, as shown in the example below.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/thumbnails/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Content Examples</title>
-      <link>http://localhost:1313/docs/content-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/content-examples/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/content-examples/featured.svg" />
     </item>
     
     <item>
@@ -240,26 +140,6 @@
     </item>
     
     <item>
-      <title>Series</title>
-      <link>http://localhost:1313/docs/series/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/series/</guid>
-      <description>&lt;p&gt;Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them. You can see an example of this above.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/series/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Advanced Customisation</title>
-      <link>http://localhost:1313/docs/advanced-customisation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/advanced-customisation/</guid>
-      <description>&lt;p&gt;There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/advanced-customisation/featured.svg" />
-    </item>
-    
-    <item>
       <title>jam.dsg.li</title>
       <link>http://localhost:1313/users/12-ee5d5eca13c3742f7a454a52424f9d73/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -270,16 +150,6 @@
     </item>
     
     <item>
-      <title>Hosting &amp; Deployment</title>
-      <link>http://localhost:1313/docs/hosting-deployment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/hosting-deployment/</guid>
-      <description>&lt;p&gt;There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.&lt;/p&gt;&#xA;&lt;p&gt;Blowfish is built using relative URLs throughout the theme. This enables sites to easily be deployed to sub-folders and hosts like GitHub Pages. There&amp;rsquo;s usually no special configuration required for this to work as long as the &lt;code&gt;baseURL&lt;/code&gt; parameter has been configured in the &lt;code&gt;hugo.toml&lt;/code&gt; file.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/hosting-deployment/featured.svg" />
-    </item>
-    
-    <item>
       <title>priyakdey.com</title>
       <link>http://localhost:1313/users/13-72d71e304faaa40b3d547d5357edc450/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -287,16 +157,6 @@
       <guid>http://localhost:1313/users/13-72d71e304faaa40b3d547d5357edc450/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/13-72d71e304faaa40b3d547d5357edc450/feature.webp" />
-    </item>
-    
-    <item>
-      <title>Firebase: Views &amp; Likes</title>
-      <link>http://localhost:1313/docs/firebase-views/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/firebase-views/</guid>
-      <description>&lt;p&gt;In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/firebase-views/featured.svg" />
     </item>
     
     <item>
@@ -1350,846 +1210,6 @@
     </item>
     
     <item>
-      <title>Build your homepage using Blowfish and Hugo</title>
-      <link>http://localhost:1313/guides/202310-blowfish-tutorial/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/202310-blowfish-tutorial/</guid>
-      <description>Just one year ago, I created Blowfish, a Hugo theme crafted to build my unique vision for my personal homepage. I also decided to make it an open-source project. Fast-forward to today, and Blowfish has transformed into a thriving open-source project with over 600 stars on GitHub and a user base of hundreds. In this tutorial, I’ll show you how to get started and have your website running in a couple of minutes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/202310-blowfish-tutorial/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.de/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.es/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.fr/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.it/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.pt-br/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.pt-pt/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.zh-cn/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish チュートリアル</title>
-      <link>http://localhost:1313/examples/blowfish-tutorial/_index.ja/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Dépôt</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.fr/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.de/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.zh-cn/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repositorio</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.es/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.pt-br/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Tutorial - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.pt-pt/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish チュートリアル - レポジトリ</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.de/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.es/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.fr/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.it/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.ja/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.pt-br/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.pt-pt/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite</title>
-      <link>http://localhost:1313/examples/blowfish-lite/_index.zh-cn/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lite/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.de/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.es/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.fr/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.it/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.ja/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.pt-br/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.pt-pt/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist</title>
-      <link>http://localhost:1313/examples/blowfish-artist/_index.zh-cn/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-artist/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.de/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.es/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.fr/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.it/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.ja/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.pt-br/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.pt-pt/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey</title>
-      <link>http://localhost:1313/examples/blowfish-lowkey/_index.zh-cn/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Multiple Authors</title>
-      <link>http://localhost:1313/samples/multiple-authors/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/multiple-authors/</guid>
-      <description>A quick example of how multiple authors could be used.</description>
-      
-    </item>
-    
-    <item>
-      <title>Thumbnails</title>
-      <link>http://localhost:1313/samples/thumbnail_sample/</link>
-      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/thumbnail_sample/</guid>
-      <description>A quick example of how to start using Thumbnails in your artciles.</description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Dépôt</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.fr/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.de/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.it/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.zh-cn/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repositorio</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.es/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.pt-br/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.pt-pt/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lite - レポジトリ</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.ja/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Dépôt</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.fr/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.de/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.it/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.zh-cn/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repositorio</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.es/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.pt-br/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.pt-pt/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Artist - レポジトリ</title>
-      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.ja/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Dépôt</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.fr/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.de/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.it/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.zh-cn/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repositorio</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.es/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.pt-br/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - Repositório</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.pt-pt/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Lowkey - レポジトリ</title>
-      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.ja/</link>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.de/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.es/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.fr/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.it/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.pt-br/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.pt-pt/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.zh-cn/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - Dépôt GitHub</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.fr/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.fr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - GitHub Repo</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.de/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.de/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - GitHub Repo</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.it/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.it/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - GitHub Repo</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.zh-cn/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.zh-cn/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - Repositorio GitHub</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.es/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.es/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - Repositório GitHub</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.pt-br/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.pt-br/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish Template - Repositório GitHub</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.pt-pt/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.pt-pt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish テンプレート</title>
-      <link>http://localhost:1313/examples/blowfish-template/_index.ja/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Blowfish テンプレート - GitHub レポジトリ</title>
-      <link>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Icons</title>
-      <link>http://localhost:1313/samples/icons/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/icons/</guid>
-      <description>&lt;p&gt;Blowfish has built-in support for a number of &lt;a href=&#34;https://fontawesome.com/icons&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;FontAwesome 6&lt;/a&gt; icons. These can be included in your website through either the &lt;a href=&#34;http://localhost:1313/docs/partials/#icon&#34; &gt;icon partial&lt;/a&gt; or &lt;a href=&#34;http://localhost:1313/docs/shortcodes/#icon&#34; &gt;icon shortcode&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Additionally, custom icons are also fully supported. Simply provide your own SVG icon assets by placing them in the &lt;code&gt;assets/icons/&lt;/code&gt; directory in the root of your project. Any icons in the icons directory will then be available to use throughout the theme. In order to achieve automatic color filling, every SVG path needs the &lt;code&gt;fill=&amp;quot;currentColor&amp;quot;&lt;/code&gt; XML attribute.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Users</title>
       <link>http://localhost:1313/users/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
@@ -2220,86 +1240,6 @@
     </item>
     
     <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/samples/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Blowfish, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/samples/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/rich-content/</guid>
-      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/samples/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Mathematical notation</title>
-      <link>http://localhost:1313/samples/mathematical-notation/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/mathematical-notation/</guid>
-      <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Charts</title>
-      <link>http://localhost:1313/samples/charts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/charts/</guid>
-      <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
-      
-    </item>
-    
-    <item>
-      <title>Diagrams and Flowcharts</title>
-      <link>http://localhost:1313/samples/diagrams-flowcharts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/diagrams-flowcharts/</guid>
-      <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
-      
-    </item>
-    
-    <item>
-      <title>Emoji :parachute:</title>
-      <link>http://localhost:1313/samples/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/emoji/</guid>
-      <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
-      
-    </item>
-    
-    <item>
-      <title>Recipe Template</title>
-      <link>http://localhost:1313/guides/template/</link>
-      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/template/</guid>
-      <description>&lt;p&gt;Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;How to start?&#xA;    &lt;div id=&#34;how-to-start&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#how-to-start&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/template/featured.jpg" />
-    </item>
-    
-    <item>
       <title>2人目のダミー作者</title>
       <link>http://localhost:1313/authors/secondauthor/_index.ja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2316,26 +1256,6 @@
       
       <guid>http://localhost:1313/tags/advanced/_index.it/</guid>
       <description>&lt;p&gt;This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing. &amp;#x1f680;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Amostras</title>
-      <link>http://localhost:1313/samples/_index.pt-br/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.pt-br/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  O Blowfish dá vida ao seu conteúdo. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta seção contém algumas páginas de demonstração que mostram como o Blowfish renderiza diferentes tipos de conteúdo. Você também pode ver uma página de exemplo de &lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;listagem de taxonomia&lt;/a&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Amostras</title>
-      <link>http://localhost:1313/samples/_index.pt-pt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.pt-pt/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  O Blowfish dá vida ao seu conteúdo. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta secção contém algumas páginas de demonstração que mostram como o Blowfish renderiza diferentes tipos de conteúdo. Também pode ver uma página de exemplo de &lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;listagem de taxonomia&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -2380,92 +1300,12 @@
     </item>
     
     <item>
-      <title>Beispiele</title>
-      <link>http://localhost:1313/samples/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.de/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish bringt Ihre Inhalte zum Leben. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Dieser Bereich enthält einige Demo-Seiten, die zeigen, wie Blowfish verschiedene Arten von Inhalten rendert. Sie können auch eine Beispiel-&lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;Taxonomie-Auflistung&lt;/a&gt;-Seite sehen.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Benutzer</title>
       <link>http://localhost:1313/users/users/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/users/users/</guid>
       <description>&lt;p&gt;Echte Websites, die mit Blowfish erstellt wurden. Die vollständige Liste im &lt;a href=&#34;http://localhost:1313/users/users.json&#34; &gt;JSON-Format&lt;/a&gt; anzeigen.&lt;/p&gt;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;&lt;div&#xA;  &#xA;    class=&#34;flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900&#34;&#xA;  &#xA;  &gt;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;text-primary-400 pe-3 flex items-center&#34;&#xA;    &#xA;    &gt;&#xA;    &lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/span&gt;&#xA;  &lt;/span&gt;&#xA;&#xA;  &lt;span&#xA;    &#xA;      class=&#34;dark:text-neutral-300&#34;&#xA;    &#xA;    &gt;&lt;strong&gt;Blowfish-Benutzer?&lt;/strong&gt; Um Ihre Website zu dieser Liste hinzuzufügen, &lt;a href=&#34;https://github.com/nunocoracao/blowfish/blob/dev/exampleSite/content/users/users.json&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;reichen Sie einen Pull Request ein&lt;/a&gt;.&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/BR&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Campioni</title>
-      <link>http://localhost:1313/samples/_index.it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.it/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish dà vita ai tuoi contenuti. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Questa sezione contiene alcune pagine demo che mostrano come Blowfish esegue il rendering di diversi tipi di contenuto. Puoi anche vedere una pagina di esempio &lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;elenco tassonomia&lt;/a&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Documentação</title>
-      <link>http://localhost:1313/docs/_index.pt-br/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.pt-br/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Simples, mas poderoso. Aprenda a usar o Blowfish e seus recursos.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta seção contém tudo o que você precisa saber sobre o Blowfish. Se você é novo, confira o guia de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalação&lt;/a&gt; para começar ou visite a seção de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Exemplos&lt;/a&gt; para ver o que o Blowfish pode fazer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Documentação</title>
-      <link>http://localhost:1313/docs/_index.pt-pt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.pt-pt/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Simples, mas poderoso. Aprenda a utilizar o Blowfish e as suas funcionalidades.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta secção contém tudo o que precisa de saber sobre o Blowfish. Se é novo, consulte o guia de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalação&lt;/a&gt; para começar ou visite a secção de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Exemplos&lt;/a&gt; para ver o que o Blowfish pode fazer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Documentación</title>
-      <link>http://localhost:1313/docs/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.es/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Simple, pero potente. Aprende a usar Blowfish y sus características.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta sección contiene todo lo que necesitas saber sobre Blowfish. Si eres nuevo, consulta la guía de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalación&lt;/a&gt; para comenzar o visita la sección de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Ejemplos&lt;/a&gt; para ver lo que Blowfish puede hacer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Documentation</title>
-      <link>http://localhost:1313/docs/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.fr/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Simple, mais puissant. Apprenez à utiliser Blowfish et ses fonctionnalités.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Cette section contient tout ce que vous devez savoir sur Blowfish. Si vous êtes nouveau, consultez le guide d&amp;rsquo;&lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installation&lt;/a&gt; pour commencer ou visitez la section &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Exemples&lt;/a&gt; pour voir ce que Blowfish peut faire.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Documenti</title>
-      <link>http://localhost:1313/docs/_index.it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.it/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Semplice ma potente. Scopri come utilizzare Blowfish e le sue funzionalità.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Questa sezione contiene tutto ciò che devi sapere su Blowfish. Se sei nuovo, consulta la guida &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installazione&lt;/a&gt; per iniziare o visita la sezione &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Esempi&lt;/a&gt; per vedere cosa può fare Blowfish.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Dokumentation</title>
-      <link>http://localhost:1313/docs/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.de/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Einfach, aber leistungsstark. Erfahren Sie, wie Sie Blowfish und seine Funktionen nutzen können.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Dieser Abschnitt enthält alles, was Sie über Blowfish wissen müssen. Wenn Sie neu sind, lesen Sie den &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installations&lt;/a&gt;-Leitfaden, um zu beginnen, oder besuchen Sie den Bereich &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Beispiele&lt;/a&gt;, um zu sehen, was Blowfish kann.&lt;/p&gt;</description>
       
     </item>
     
@@ -2530,16 +1370,6 @@
     </item>
     
     <item>
-      <title>Échantillons</title>
-      <link>http://localhost:1313/samples/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.fr/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish donne vie à votre contenu. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Cette section contient quelques pages de démonstration qui montrent comment Blowfish rend différents types de contenu. Vous pouvez également voir une page exemple de &lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;liste de taxonomie&lt;/a&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Esempio di elenco di tassonomia degli autori</title>
       <link>http://localhost:1313/authors/_index.it/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2556,56 +1386,6 @@
       
       <guid>http://localhost:1313/tags/advanced/_index.de/</guid>
       <description>&lt;p&gt;Dies ist das Tag &amp;ldquo;Fortgeschritten&amp;rdquo;. Genau wie bei anderen Auflistungsseiten in Blowfish können Sie benutzerdefinierten Inhalt zu einzelnen Taxonomiebegriffen hinzufügen, der oben in der Begriffsliste angezeigt wird.&lt;/p&gt;&#xA;&lt;p&gt;Sie können diese Inhaltsseiten auch verwenden, um Hugo-Metadaten wie Titel und Beschreibungen zu definieren, die für SEO und andere Zwecke verwendet werden.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Galeria</title>
-      <link>http://localhost:1313/examples/_index.pt-br/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.pt-br/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Veja o que é possível com o Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta seção contém links para modelos de exemplo e páginas criadas usando o Blowfish para inspirar você.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Galeria</title>
-      <link>http://localhost:1313/examples/_index.pt-pt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.pt-pt/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Veja o que é possível com o Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta secção contém ligações para modelos de exemplo e páginas criadas utilizando o Blowfish para o inspirar.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Galería</title>
-      <link>http://localhost:1313/examples/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.es/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Mira lo que es posible con Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta sección contiene enlaces a plantillas de ejemplo y páginas creadas con Blowfish para inspirarte.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Galerie</title>
-      <link>http://localhost:1313/examples/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.de/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Sehen Sie, was mit Blowfish möglich ist.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Dieser Bereich enthält Links zu Beispielvorlagen und Seiten, die mit Blowfish erstellt wurden, um Sie zu inspirieren.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Muestras</title>
-      <link>http://localhost:1313/samples/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.es/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish da vida a tu contenido. &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Esta sección contiene algunas páginas de demostración que muestran cómo Blowfish renderiza diferentes tipos de contenido. También puedes ver una página de ejemplo de &lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;listado de taxonomía&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
     
@@ -2690,92 +1470,12 @@
     </item>
     
     <item>
-      <title>Receitas</title>
-      <link>http://localhost:1313/guides/_index.pt-br/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.pt-br/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Receitas, guias e tutoriais para o Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Usuário do Blowfish?&lt;/strong&gt; Para adicionar seu guia a esta lista, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;confira o template&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esta seção contém guias para vários cenários sobre como configurar seu tema. Se você é novo, confira o guia de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalação&lt;/a&gt; para começar ou visite a seção de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Amostras&lt;/a&gt; para ver o que o Blowfish pode fazer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Receitas</title>
-      <link>http://localhost:1313/guides/_index.pt-pt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.pt-pt/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Receitas, guias e tutoriais para o Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Utilizador do Blowfish?&lt;/strong&gt; Para adicionar o seu guia a esta lista, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;consulte o template&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esta secção contém guias para vários cenários sobre como configurar o seu tema. Se é novo, consulte o guia de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalação&lt;/a&gt; para começar ou visite a secção de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Amostras&lt;/a&gt; para ver o que o Blowfish pode fazer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Recetas</title>
-      <link>http://localhost:1313/guides/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.es/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Recetas, guías y tutoriales para Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;¿Usuario de Blowfish?&lt;/strong&gt; Para añadir tu guía a esta lista, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;consulta la plantilla&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esta sección contiene guías para varios escenarios sobre cómo configurar tu tema. Si eres nuevo, consulta la guía de &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Instalación&lt;/a&gt; para comenzar o visita la sección de &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Muestras&lt;/a&gt; para ver lo que Blowfish puede hacer.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Recettes</title>
-      <link>http://localhost:1313/guides/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.fr/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Recettes, guides et tutoriels pour Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Utilisateur de Blowfish ?&lt;/strong&gt; Pour ajouter votre guide à cette liste, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;consultez le modèle&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Cette section contient des guides pour divers scénarios de configuration de votre thème. Si vous êtes nouveau, consultez le guide d&amp;rsquo;&lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installation&lt;/a&gt; pour commencer ou visitez la section &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Échantillons&lt;/a&gt; pour voir ce que Blowfish peut faire.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Recipes</title>
-      <link>http://localhost:1313/guides/_index.it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.it/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Recipes, guides, and tutorials for Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Blowfish user?&lt;/strong&gt; To add your guide to this list, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;check the template&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This section contains guides for a variety of scenarios on how to configure your theme. If you&amp;rsquo;re new, check out the &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installation&lt;/a&gt; guide to begin or visit the &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Samples&lt;/a&gt; section to see what Blowfish can do.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Rezepte</title>
-      <link>http://localhost:1313/guides/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.de/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Rezepte, Anleitungen und Tutorials für Blowfish&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Blowfish-Nutzer?&lt;/strong&gt; Um Ihre Anleitung zu dieser Liste hinzuzufügen, &lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;schauen Sie sich die Vorlage an&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Dieser Bereich enthält Anleitungen für verschiedene Szenarien zur Konfiguration Ihres Themes. Wenn Sie neu sind, schauen Sie sich die &lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;Installations&lt;/a&gt;-Anleitung an, um zu beginnen, oder besuchen Sie den &lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;Beispiele&lt;/a&gt;-Bereich, um zu sehen, was Blowfish kann.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Secondo autore fittizio</title>
       <link>http://localhost:1313/authors/secondauthor/_index.it/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/secondauthor/_index.it/</guid>
       <description>&lt;p&gt;La fantastica biografia fittizia di Dummy Second Author.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>http://localhost:1313/examples/_index.it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.it/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  See what&amp;rsquo;s possible with Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This section contains links to example templates and pages created using Blowfish to get you inspired.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>http://localhost:1313/examples/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.zh-cn/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  See what&amp;rsquo;s possible with Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This section contains links to example templates and pages created using Blowfish to get you inspired.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
       
     </item>
     
@@ -2830,62 +1530,12 @@
     </item>
     
     <item>
-      <title>Vitrine</title>
-      <link>http://localhost:1313/examples/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.fr/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Découvrez ce qui est possible avec Blowfish.&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Cette section contient des liens vers des modèles et pages d&amp;rsquo;exemple créés avec Blowfish pour vous inspirer.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>サンプル</title>
-      <link>http://localhost:1313/samples/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.ja/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish はあなたのコンテンツに命を宿します。&amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;このセクションは、 Blowfish で様々な種類のコンテンツをどのように表示するのかを紹介するデモページを含みます。例としては&lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;分類一覧&lt;/a&gt;ページも参考になります。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>ショーケース</title>
-      <link>http://localhost:1313/examples/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/examples/_index.ja/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish で何が出来るか見てみる。&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;このセクションはテンプレートの例やインスピレーションを得ることの出来る Blowfish を使用して作成されたページのリンクがあります。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>タグ</title>
       <link>http://localhost:1313/tags/_index.ja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/_index.ja/</guid>
       <description>&lt;p&gt;Blowfish は Hugo の分類システムを完全にサポートし、どのような分類システムの設定でも適合できます。このような分類システムのリストは、用語リストの上に表示されるカスタムコンテンツもサポートしています。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>ドキュメント</title>
-      <link>http://localhost:1313/docs/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.ja/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  シンプル、それでいて強力。 Blowfish の利用方法と特徴について学ぶ。&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;このセクションでは、Blowfish について知っておくべきことをすべて網羅しています。初めての方は、まず&lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;インストール&lt;/a&gt;ガイドをご覧いただくか、&lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;サンプル&lt;/a&gt;セクションで Blowfish で何ができるかを確認してみてください。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>レシピ</title>
-      <link>http://localhost:1313/guides/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.ja/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish のためのレシピ、ガイド、チュートリアル&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Blowfish ユーザーですか?&lt;/strong&gt; この一覧にあなたのガイドを加える際は、&lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;テンプレートを確認&lt;/a&gt;してください。&lt;/p&gt;</description>
       
     </item>
     
@@ -2900,42 +1550,12 @@
     </item>
     
     <item>
-      <title>使用指南</title>
-      <link>http://localhost:1313/guides/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/_index.zh-cn/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish 的使用指南和教程&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;您是 Blowfish 的用户吗?&lt;/strong&gt; 要将您自己编写的指南添加到此列表，请查看&lt;a href=&#34;http://localhost:1313/guides/template/&#34; &gt;参考模板&lt;/a&gt;。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>文档</title>
-      <link>http://localhost:1313/docs/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/_index.zh-cn/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  了解如何使用简单而强大的 Blowfish。&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;本章节包含了你需要了解的有关 Blowfish 的所有信息。如果你是新用户，请查阅&lt;a href=&#34;http://localhost:1313/docs/installation/&#34; &gt;安装&lt;/a&gt; 指南，或者访问&lt;a href=&#34;http://localhost:1313/samples/&#34; &gt;示例&lt;/a&gt; 来了解 Blowfish 能做什么。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>标签</title>
       <link>http://localhost:1313/tags/_index.zh-cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/_index.zh-cn/</guid>
       <description>&lt;p&gt;Blowfish 支持基于 Hugo 的所有分类方法。同时，当前的标签预览页也支持展示自定义内容。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>示例</title>
-      <link>http://localhost:1313/samples/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/samples/_index.zh-cn/</guid>
-      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;&#xA;  Blowfish 让你的内容栩栩如生。 &amp;#x1f60d;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;本节包含一些示例页面，展示了Blowfish如何呈现不同类型的内容。你还可以参考&lt;a href=&#34;http://localhost:1313/tags/&#34; &gt;标签&lt;/a&gt;页面的示例。&lt;/p&gt;</description>
       
     </item>
     
