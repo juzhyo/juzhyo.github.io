@@ -16,6 +16,6 @@ cascade:
 ---
 
 ## Motivation
-Bought an M1 Mac mini off Carousell late last year and have only been using it as a desktop since. Felt that it's under-utilized. Perhaps it can replace the current Intel NUC as my home server. 
+Bought an M1 Mac mini off Carousell late last year and have only been using it as a desktop since. Felt that it's under-utilized. Perhaps it can replace the current Intel NUC as my home server. Instead of two devices, I have one with serves as my desktop and server. Much cleaner this way. The M1 Mac mini is more powerful than the NUC6i3SYB. With 
 
 
