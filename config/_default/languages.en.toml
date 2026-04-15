@@ -16,7 +16,7 @@ title = "Justin Zhou"
   email = ""
   image = "img/avatar.png"
   headline = "I create opportunities"
-  bio = "A powerful, lightweight theme for Hugo."
+  bio = "A personal website by Justin Zhou."
   links = [
     { github = "https://github.com/juzhyo" },
   ]
